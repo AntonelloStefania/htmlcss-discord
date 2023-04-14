@@ -10,7 +10,7 @@ body{
 
 header.h-container{
     /* height:100px; */
-    background-color: #2f5fe2;
+    background-color: #255EE9;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -31,8 +31,9 @@ header.h-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom:70px;
     /* padding:50px 30px; */
-    height:400px;
+    /* height:400px; */
 }
 
 .third-section{
@@ -40,24 +41,28 @@ header.h-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:400px;
+    background-color:#E6E6E6;
+    /* height:400px; */
     /* background-color: rgb(199, 197, 197); */
 }
 .fifth-section{
     display: flex;
     justify-content: center;
-    height:700px;
+    /* height:700px; */
     padding-top:30px;
     /* padding: 30px; */
-    background-color: rgb(199, 197, 197);
+    background-color: #E6E6E6;
 }
 
 .sixth-section{
     display: flex;
     justify-content: center;
-    height: 400px;
-    background-color: rgb(32, 32, 32);
+    /* height: 400px; */
     padding: 10px 30px;
+}
+
+footer{
+    background-color:rgb(32, 32, 32);
 }
 
 .footer{
@@ -65,7 +70,7 @@ header.h-container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color:rgb(32, 32, 32);
+    
 }
 /* UTILITIES */
 header .row{
@@ -102,31 +107,29 @@ header .row{
     /* border: 1px dashed black; */
 }
 .second-row{
-    height:350px;
+    /* height:350px; */
     width: 60%;
     display: flex;
     padding-top:50px
 }
 .third-row{
-    height:350px;
+    /* height:350px; */
     width: 60%;
     display: flex;
-    background-color: lightgray;
-    
 }
 
 .col-60{
     width: 60%;
-    height: 100%;
-    background-color: rgb(52, 127, 240);
-    border:1px dashed black;
+    /* height: 100%; */
+    /* background-color: rgb(52, 127, 240); */
+    /* border:1px dashed black; */
 }
 
 .col-40{
     width:40%;
-    height:100%;
-    background-color: pink;
-    border: 1px dashed black;
+    /* height:100%; */
+    /* background-color: pink; */
+    /* border: 1px dashed black; */
 }
 
 .fifth-row{
@@ -134,53 +137,53 @@ header .row{
 }
 
 .fifth-col{
-    background-color: green;
-    height: 100%;
-    border: 1px dashed black;
+    /* background-color: green; */
+    /* height: 100%; */
+    /* border: 1px dashed black; */
     text-align: center;
 }
 
 .sixth-row{
     width: 60%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .sixth-col-30{
-    height:100%;
+    /* height:100%; */
     width: 30%;
-    background-color: rgb(231, 125, 121);
-    border: 1px dashed black;
+    /* background-color: rgb(231, 125, 121); */
+    /* border: 1px dashed black; */
 }
 
 .sixth-col-4x{
-    height:100%;
+    /* height:100%; */
     width: calc(70% / 4);
-    background-color: rgb(58, 180, 170);
-    border:1px dashed #fff;
+    /* background-color: rgb(58, 180, 170);
+    border:1px dashed #fff; */
 }
 
 .footer-row{
     width: 60%;
-    height: 50px;
-    background-color:aquamarine ;
+    /* height: 50px; */
+    /* background-color:aquamarine ; */
     display: flex;
     justify-content: space-between;
     align-items: center ;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     
 }
 
 .footer-col-button{
-    background-color: rgb(243, 183, 183);
+    /* background-color: rgb(243, 183, 183); */
     padding: 2px 10px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 
 }
 /* FINE UTILITIES */
 /* HEADER ELEMENTS */
-#img-logo{
+.img-logo{
     width:70%;
 }
 
@@ -257,6 +260,7 @@ header .row{
 /* THIRD SECTION ELEMENTS */
 .third-section-content {
     padding-top:30px;
+    padding-left:30px;
     
 }
 
@@ -305,15 +309,87 @@ header .row{
     background-repeat: no-repeat;
     background-position:center;
     padding-top: 10px;
-    margin-bottom:20px
+    margin-bottom:20px;
+    font-size: 25px;
  }
 
  #bottom-mac-button{
     padding:10px;
     border-radius:20px;
     font-weight: 600;
-    background-color: rgb(116, 118, 252);
+    background-color: #8EA1E1;
     color: #fff;
-    border: 1px solid rgb(116, 118, 252);
+    border: 1px solid #8EA1E1;
     margin-bottom:50px
  }
+
+/* FINE FIFTH SECTION ELEMENTS */
+/* SIXTH SECTION ELEMENTS */
+
+.main-content-sixth-col-30 h3{
+    font-weight: 800;
+    font-size:25px;
+    margin-bottom:25px;
+    color: #8EA1E1;
+    padding:10px 30px;
+}
+.main-content-sixth-col-30 span{
+    color: white;
+    margin-left:30px;
+}
+
+.icons-sixth-col{
+    margin-left:30px
+}
+.fa-brands{
+    padding:25px 10px;
+}
+
+#italy{
+    width:20px;
+    margin-right:10px
+}
+
+.ul-topic{
+    color:#8EA1E1 ;
+}
+ul, h4{
+    padding: 10px 20px;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+li{
+    color: white;
+    padding-top:10px;
+    font-weight: 400;
+}
+
+/* FINE SIXTH SECTION ELEMENTS */
+hr{
+    margin: 0 20%;
+    color:#8EA1E1 ;
+}
+
+/* FOOTER SECTION CON LOGO E BOTTONI */
+
+#sign-in{
+    background-color:#8EA1E1;
+    color: white;
+    font-weight: 600;
+    padding:10px;
+    border-radius: 20px;
+    border: 1px solid #8EA1E1;
+}
+/* FINE FOOTER SECTION CON LOGO E BOTTONI */
+/* ABBELLIMENTI */
+.wave{
+    opacity: 0.1;
+    margin: -5px;
+}
+
+.inverted{
+    transform:scaleY(-1);
+    margin-bottom:50px;
+
+}
