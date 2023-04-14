@@ -388,6 +388,10 @@ hr{
     margin: -5px;
 }
 
+#wavy{
+    width: 100%;
+}
+
 .inverted{
     transform:scaleY(-1);
     margin-bottom:50px;
