@@ -6,8 +6,6 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    width: 1170;
-    margin: 0 auto;
 }
 
 header.h-container{
@@ -38,22 +36,23 @@ header.h-container{
 }
 
 .third-section{
+    position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height:400px;
-    padding: 30px;
-    background-color: rgb(199, 197, 197);
+    /* background-color: rgb(199, 197, 197); */
 }
-.fourth-section{
+.fifth-section{
     display: flex;
     justify-content: center;
     height:700px;
-    padding: 30px;
+    padding-top:30px;
+    /* padding: 30px; */
     background-color: rgb(199, 197, 197);
 }
 
-.fifth-section{
+.sixth-section{
     display: flex;
     justify-content: center;
     height: 400px;
@@ -62,7 +61,6 @@ header.h-container{
 }
 
 .footer{
-    margin-top: 1px;
     padding: 20px 30px;
     display: flex;
     justify-content: center;
@@ -113,6 +111,8 @@ header .row{
     height:350px;
     width: 60%;
     display: flex;
+    background-color: lightgray;
+    
 }
 
 .col-60{
@@ -129,31 +129,32 @@ header .row{
     border: 1px dashed black;
 }
 
-.fourth-row{
+.fifth-row{
     width: 60%;
 }
 
-.fourth-col{
+.fifth-col{
     background-color: green;
     height: 100%;
     border: 1px dashed black;
+    text-align: center;
 }
 
-.fifth-row{
+.sixth-row{
     width: 60%;
     height: 100%;
     display: flex;
     border: 1px dashed black;
 }
 
-.fifth-col-30{
+.sixth-col-30{
     height:100%;
     width: 30%;
     background-color: rgb(231, 125, 121);
     border: 1px dashed black;
 }
 
-.fifth-col-4x{
+.sixth-col-4x{
     height:100%;
     width: calc(70% / 4);
     background-color: rgb(58, 180, 170);
@@ -255,18 +256,64 @@ header .row{
 /* FINE SECOND AND FOURTH SECTION ELEMENTS */
 /* THIRD SECTION ELEMENTS */
 .third-section-content {
-    padding-top:30px
+    padding-top:30px;
+    
 }
 
 .third-section-content p{
     font-size: 18px;
     /* padding-top: 30px; */
     padding-right:30%;
-    font-weight: 400
+    font-weight: 400;
+    
 }
 
 #third-img{
     margin-left:30px;
+    /* position:relative; */
 }
 
+/* .third-section::before{
+    content:'';
+    background-image: url(../img/wave.svg);
+    position:absolute;
+    background-size: contain;
+    background-repeat:no-repeat;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;  
+    opacity: 0.1;
+}
+ .relative-text{
+    position: relative;
+ } */
 
+ /* FIFTH SECTION ELEMENTS */
+ .img-fifth-col{
+    width:100%;
+ }
+
+ .main-content-fifth-col p{
+    font-size: 15px;
+    padding-top: 20px;
+ }
+
+ #star{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-top: 10px;
+    margin-bottom:20px
+ }
+
+ #bottom-mac-button{
+    padding:10px;
+    border-radius:20px;
+    font-weight: 600;
+    background-color: rgb(116, 118, 252);
+    color: #fff;
+    border: 1px solid rgb(116, 118, 252);
+    margin-bottom:50px
+ }
