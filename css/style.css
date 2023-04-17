@@ -15,6 +15,7 @@ header.h-container{
     padding: 20px;
 }
 
+
 .first-section{
     background-image: url(../img/jumbo.png);
     background-size:cover;
@@ -30,6 +31,7 @@ header.h-container{
     justify-content: center;
     align-items: center;
     margin-bottom:70px;
+    padding-top: 50px;
 }
 
 .third-section{
@@ -200,17 +202,13 @@ header .row{
 /* SECOND AND FOURTH SECTION ELEMENTS */
 .sections-imgs{
     width:70%;
-    padding-left:50px
+    margin-left: 20px;
 }
 
-.second-section-content h2{
-    padding: 0 30%
-}
 
 .second-section-content p{
     font-size: 18px;
     padding-top: 30px;
-    padding-left:30%;
     font-weight: 400;
 }
 
@@ -218,18 +216,16 @@ header .row{
 /* THIRD SECTION ELEMENTS */
 .third-section-content {
     padding-top:30px;
-    padding-left:30px;
 }
 
 .third-section-content p{
     font-size: 18px;
-    padding-right:30%;
     font-weight: 400;
     padding-top:30px;
 }
 
 #third-img{
-    margin-left:30px;
+    margin-left:80px;
 }
 
  /* FIFTH SECTION ELEMENTS */
@@ -238,7 +234,7 @@ header .row{
  }
 
  .main-content-fifth-col p{
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 20px;
  }
 
@@ -270,7 +266,7 @@ header .row{
     font-size:25px;
     margin-bottom:25px;
     color: #8EA1E1;
-    padding:10px 30px;
+    padding:10px ;
 }
 
 .main-content-sixth-col-30 span{
